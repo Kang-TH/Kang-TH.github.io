@@ -1,0 +1,289 @@
+@media only screen and (max-width: 1023px) {
+    .c_m_1 {width: 8.33%;}
+    .c_m_2 {width: 16.66%;}
+    .c_m_3 {width: 25%;}
+    .c_m_4 {width: 33.33%;}
+    .c_m_5 {width: 41.66%;}
+    .c_m_6 {width: 50%;}
+    .c_m_7 {width: 58.33%;}
+    .c_m_8 {width: 66.66%;}
+    .c_m_9 {width: 75%;}
+    .c_m_10 {width: 83.33%;}
+    .c_m_11 {width: 91.66%;}
+    .c_m_12 {width: 100%;}
+
+}
+
+@media only screen and (min-width: 1024px) {
+    .c_1 {width: 8.33%; float:left;}
+    .c_2 {width: 16.66%; float:left;}
+    .c_3 {width: 25%; float:left;}
+    .c_4 {width: 33.33%; float:left;}
+    .c_5 {width: 41.66%; float:left;}
+    .c_6 {width: 50%; float:left;}
+    .c_6_r {width: 50%; float:right;}
+    .c_7 {width: 58.33%; float:left;}
+    .c_8 {width: 66.66%; float:left;}
+    .c_9 {width: 75%; float:left;}
+    .c_10 {width: 83.33%; float:left;}
+    .c_11 {width: 91.66%; float:left;}
+    .c_12 {width: 100%; float:left;}
+    
+}
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+header {
+    height: auto;
+    padding:1em;
+    text-align: center;
+    background-color: #ffffff;
+}
+ul {
+    list-style-type: none;
+}
+.index {
+    font-size: 100%;
+    background-image: url("img/bluehouse.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: #111;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 2em auto;
+    padding: 2em;
+    border-radius: 12px;
+    width: 90%;
+    
+    float: none;
+}
+
+section p {
+    padding: 1em 2em;
+    line-height: 1.7;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+aside{
+    float:left;
+    height: auto;
+}
+aside li{
+    padding-left: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 1em;
+    height: 2em;
+    width: 9em;
+    background-color: #7277ff;
+}
+aside li a{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+}
+aside li:hover{
+    color: #7277ff;
+    background-color: #ffffff;
+}
+aside li:hover a{
+    color: #7277ff;
+}
+
+.logo{
+    padding-top: 0.20em;
+    width: 0.8em;
+}
+.footer_link{
+    width: 5em;
+}
+
+
+.index_link{
+    width: 8em;
+}
+
+.index_link_list {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.index_link_list li {
+    display: inline-block;
+    margin-top: 2em;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+}
+.align_center{
+    text-align: center;
+}
+.election_main {
+    max-width: 90%;
+    height: auto;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 2rem;
+    box-shadow: 0 0 0.625em rgba(0,0,0,0.1);
+}
+
+.election_section {
+    margin-bottom: 2rem;
+}
+
+.election_section h2 {
+    color: #2c3e50;
+    border-left: 0.3125em solid #2980b9;
+    padding-left: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.candidate_card {
+    background-color: #f8f9fa;
+    border: 0.0625em solid #ddd;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+    width: 12em;
+    text-align: center;
+}
+.candidate_card19d {
+    background-color: #f8f9fa;
+    border: 0.0625em solid #ddd;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+    width: 3.6em;
+    text-align: center;
+}
+.election_info {
+    background-color: #fdfdfd;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 0.5em rgba(0,0,0,0.05);
+    margin-bottom: 2rem;
+    border-left: 0.3125em solid #2980b9;
+}
+
+.election_info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+.info_list {
+    list-style: none;
+    padding-left: 0;
+    line-height: 1.8;
+}
+
+.info_list li {
+    margin-bottom: 0.5rem;
+    padding-left: 1rem;
+    position: relative;
+}
+
+.info_list li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #3498db;
+}
+
+.info_list li strong {
+    color: #2c3e50;
+}
+
+.info_text {
+    padding: 1rem 2rem;
+    background-color: #f8f9fa;
+    border-left: 4px solid #3498db;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    line-height: 1.7;
+    color: #333;
+}
+.vote_table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    text-align: center;
+    background-color: #ffffff;
+    font-size: 0.95rem;
+    box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.05);
+}
+
+.vote_table th,
+.vote_table td {
+    border: 0.0625em solid #ccc;
+    padding: 0.375em 0.625em;
+}
+
+.vote_table caption {
+    caption-side: top;
+    font-weight: bold;
+    margin-bottom: 0.3125em;
+    font-size: 1.1rem;
+    color: #2c3e50;
+    text-align: left;
+}
+
+.red_win {
+    background-color: rgba(220, 53, 69, 0.25);
+    font-weight: bold;
+    color: #b02a37;
+}
+
+.green_win {
+    background-color: rgba(4, 133, 13, 0.25);
+    font-weight: bold;
+    color: #04850d;
+}
+.blue_win{
+    background-color: rgba(0, 123, 224, 0.25);
+    font-weight: bold;
+    color: rgb(0, 123, 224); 
+}
+.vote_logo{
+    display: inline;
+    width: 10em;
+}
+
+.candidate_flex {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.candidate_img{
+    width: 10em;
+}
+.table_small{
+    font-size: 0.78em;
+}
+.img_result{
+    width: 35em;
+}
+
+.profile_table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-size: 1em;
+}
+
+.profile_table th,
+.profile_table td {
+    border: 0.1em solid #888;
+    padding: 0.5em 1em;
+}
